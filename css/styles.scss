@@ -1,0 +1,53 @@
+@import 'animate';
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.pushpin-navbar.pinned {
+    display: block;
+    @extend .animated;
+    @extend .slideInDown;
+}
+
+.pushpin-navbar {
+    display: none;
+}
+
+.logo-text {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+.brand-logo {
+    @extend .logo-text;
+}
+
+@media all and (max-width: 600px) {
+    #influxstar {
+        font-size: 15vw !important;
+    }
+
+    .body-text {
+        font-size: 2em !important;
+    }
+}
+
+#influxstar {
+    @extend .logo-text;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 10vw;
+}
+
+.body-text {
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    font-weight: 100;
+}
