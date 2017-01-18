@@ -5,7 +5,9 @@ h1, h2, h3, h4, h5 {
 }
 
 body {
+    // background-color: black;
     font-family: 'Alegreya Sans', sans-serif;
+    // font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 .pushpin-navbar.pinned {
@@ -21,7 +23,7 @@ body {
 .logo-text {
     font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: 100;
-    color: white;
+    // color: white;
 }
 
 .brand-logo {
@@ -31,6 +33,7 @@ body {
 @media all and (max-width: 600px) {
     #influxstar {
         font-size: 15vw !important;
+        line-height: 2em;
     }
 
     .body-text {
@@ -43,11 +46,15 @@ body {
     text-align: center;
     margin-top: 10%;
     font-size: 10vw;
+    font-weight: 100;
+    line-height: 2em;
+    margin-top: calc(50vh - 1em)
+    // margin-bottom: 20px;
 }
 
 .body-text {
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em;
     color: white;
-    font-weight: 100;
+    font-weight: 100 !important;
 }
